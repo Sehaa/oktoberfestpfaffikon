@@ -545,58 +545,12 @@ ul#menu-main {
     font-size: 40px;
     font-weight: 500;
 }
-.wpevents h2 {
-    color: #0080FF;
-    text-align: center;
+
+.events p {
+  text-align: center;
 }
-
-.even {
-    padding-top: 20px;
-}
-
-.events1 {
-    background-color: #0080FF;
-    padding-top: 40px;
-padding-bottom: 40px;
-border-top: 1px solid  #0080FF;
-}
-
-.events1 p {
-  color: #fff;
-}
-
-.events2 {
-  padding-top: 40px;
-padding-bottom: 40px;
- padding-right: 0px;
- border-top: 1px solid  #0080FF;
-}
-
-.events4 {
-    background: #0080FF;
-    padding-top: 40px;
-  padding-bottom: 40px;
-  padding-right: 0px;
-}
-
-.events4 p {
-  color: #fff;
-
-}
-
-.events3 {
-
-    padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-.evev{
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
-.even2 {
-  border-bottom: 1px solid  #0080FF;
+.events h4 {
+  text-align: center;
 }
 .row {
     margin-left: 0;
