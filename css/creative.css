@@ -556,3 +556,6 @@ ul#menu-main {
     margin-left: 0;
     margin-right: 0;
 }
+.popup-gallery .col-lg-4 img {
+    margin: -20px 0;
+}
