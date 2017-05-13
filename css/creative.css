@@ -168,11 +168,10 @@ header .header-content {
   margin-top: 75px;
 }
 header .header-content .header-content-inner h1 {
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-size: 30px;
+    font-size: 100px !important;
+    font-family: oktoberfest;
+    font-weight: 100;
+    text-transform: capitalize;
 }
 header .header-content .header-content-inner hr {
   margin: 30px auto;
@@ -208,6 +207,8 @@ header .header-content .header-content-inner p {
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
+    font-family: oktoberfest;
+    color: white;
   }
 }
 .section-heading {
@@ -436,6 +437,7 @@ a.page-scroll.btn.btn-default.btn-xl.sr-button{
 }
 #services{
   background-color: #0080ff;
+  margin-top: -20px;
 }
 #services h4, h3, p{
   color: #fff;
@@ -451,8 +453,11 @@ a.page-scroll.btn.btn-default.btn-xl.sr-button{
   color: #fff !important;
 }
 .paragraph {
-  color: #fff !important;
+    color: #fff !important;
+    font-family: font1;
+    font-size: 18px;
 }
+
 .portfolio-box-caption{
   background: rgba(0, 128, 255, 0.9) !important;
 }
@@ -542,15 +547,24 @@ ul#menu-main {
 .header-pages h2 {
     padding: 100px;
     color: #fff;
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 500;
+    font-family: oktoberfest;
+    text-transform: lowercase;
+
 }
 
 .events p {
-  text-align: center;
+    text-align: center;
+    color: #0080ff;
+    font-family: font1 !important;
+    font-size: 20px;
 }
 .events h4 {
   text-align: center;
+  color: #0080ff;
+  font-size: 20px;
+
 }
 .row {
     margin-left: 0;
@@ -558,4 +572,93 @@ ul#menu-main {
 }
 .popup-gallery .col-lg-4 img {
     margin: -20px 0;
+}
+
+.row-padding {
+    padding-top: 50px;
+}
+.image{
+  transition: all 0.5s;
+}
+.image:hover{
+  -moz-transform: scale(2);
+  -webkit-transform: scale(2);
+  -o-transform: scale(2);
+  -ms-transform: scale(2);
+  transform: scale(2);
+}
+
+.lage h3 {
+  text-align: center;
+  color: #0080ff;
+}
+.lage p{
+  text-align: center;
+  color:  #0080ff;
+  font-family: font1;
+  font-size: 18px;
+}
+
+.lage {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.karten {
+  color: #0080ff;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.karten p {
+   font-family: font1;
+   font-size: 19px;
+}
+
+.kontakt{
+  padding-bottom: 50px;
+    padding-top: 50px;
+}
+.kontakt p {
+    text-align: center;
+    color: #0080ff;
+    font-family: font1;
+    font-size: 19px;
+}
+
+.navbar-default.affix {
+    background:  rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid #0080ff;
+}
+
+.navbar-default.affix a {
+    color: #fff !important;
+}
+
+.navbar-default.affix a:hover {
+    color:  #0080ff;
+}
+hr.main-title-hr {
+    border-color: #fff;
+}
+@font-face {
+    font-family: oktoberfest;
+    src: url('AncientMedium.ttf');
+}
+@font-face {
+    font-family: font1;
+    src: url('GeosansLight.ttf');
+}
+@font-face {
+    font-family: coolvetica;
+    src: url('coolvetica.ttf');
+}
+@media screen and (max-width: 767px){
+  *{font-size: 14px !important;}
+  p{display: none !important;}
+  h3{display: none !important;}
+  #services {
+    margin-top: 20px;
+}
 }

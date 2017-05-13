@@ -1,18 +1,12 @@
 <section class ="contac footer">
         <div class="container">
             <div class="row"><!--row-->
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Inhalt und Reservierung </h2>
-                    <hr class="primary">
-                    <p>Fühlen Sie sich frei, uns für alle Informationen zu kontaktieren</p>
-                </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
-                    <i class="fa fa-phone fa-3x sr-contact"></i>
-                    <p>123-456-6789</p>
-                </div>
-                <div class="col-lg-4 text-center">
-                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>                    <p><a href="mailto:your-email@your-domain.com">feedback@pfäffiker.ch</a></p>
-                </div>
+              <?php dynamic_sidebar( 'message' ); ?>
+
+              <?php dynamic_sidebar('phone'); ?>
+
+              <?php dynamic_sidebar('mail'); ?>
+
             </div>
         </div>
     </section>
